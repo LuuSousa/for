@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+
+
+}
+
+.imagem{
+    flex: 1;
+    width: 300px;
+    margin-top: 50px;
+}
+h1{
+    font-size: 18px;
+    font-style:italic;
+    font-weight: 100;
+}
+.login{
+    flex: 1;
+    padding: 20px;
+    margin: 50px auto;
+    flex-direction: column;
+    bottom: 150px;
+    text-align: center;
+}
+
+.myform{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+input,button{
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+
+p{
+    font-size: 18px;
+}
